@@ -1,0 +1,10 @@
+@font-face {
+    font-family: arad;
+    src: url('../fonts/Arad-RegularDots2.ttf');
+    font-weight: unset;
+}
+@font-face {
+    font-family: arad;
+    src: url('../fonts/Arad-BoldDots2.ttf');
+    font-weight: bold;
+}

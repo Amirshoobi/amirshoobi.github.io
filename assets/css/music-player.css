@@ -1,0 +1,43 @@
+.mini-music-player{
+    width: 40%;
+    height: 100px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #183D3D;
+}
+.mini-music-player .primary-btn{
+    display: inline;
+}
+.mini-music-player .col{
+}
+.mini-music-player .col-1{
+    background-image: url(../images/m.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20%;
+    height: 80%;
+    margin: 1.5% 1% 2% 2%;
+}
+.mini-music-player .col-2{
+    width: 70%;
+    height: 80%;
+    margin: 1.5% 2% 0 1%;
+}
+.mini-music-player .col-2 .row:nth-child(1){
+    margin-top: 5px;
+}
+.mini-music-player .col-2 .row:nth-child(1) .col:nth-child(1){
+    width: 60%;
+}
+.mini-music-player .col-2 .row:nth-child(1) .col:nth-child(2){
+    width: 30%;
+    text-align: left;
+}
+.mini-music-player .col-2 .row:nth-child(2) .col:nth-child(1){
+    width: 20%;
+}
+.mini-music-player .col-2 .row:nth-child(2) .col:nth-child(2){
+    width: 70%;
+}
