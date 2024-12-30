@@ -1,4 +1,5 @@
 .mini-music-player{
+    display: none;
     width: 40%;
     height: 100px;
     position: fixed;
